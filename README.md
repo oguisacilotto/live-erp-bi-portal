@@ -23,6 +23,25 @@ password-protected public links and a presentation mode for meeting-room TVs.
 | **IT infrastructure** | Network devices and PBX status, fed by small collectors |
 | **Mailbox** | A shared/personal inbox inside the portal with AI triage, plus an archive viewer that reads `.pst` files **locally in the browser** |
 
+## Screens
+
+All screens below are mocks with **fictitious data** — same layout and components as the real portal.
+
+**Finance — cash-flow projection, working-capital scenarios and payables by cost group**
+![Finance dashboard](assets/bi-finance.png)
+
+**S&OP — demand vs. capacity (over-capacity in red) and the new-product pipeline by stage**
+![S&OP dashboard](assets/bi-sop.png)
+
+**IT infrastructure — device status, link latency and licence seats, fed by small collectors**
+![Infrastructure dashboard](assets/bi-infra.png)
+
+**Share links — the visitor's password gate and the owner's view of links and access log**
+![Share links](assets/bi-share.png)
+
+**Mailbox — AI triage of the inbox and `.pst` archives read locally in the browser**
+![Mailbox](assets/bi-mail.png)
+
 ## Engineering highlights
 
 - **Live, read-only ERP access.** Dashboards query the ERP through a thin server function with a whitelist of
